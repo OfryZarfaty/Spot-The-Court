@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #797878;
+    background: #3a3a3a;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.9s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #8a8989;
+    background: #434343;
     transform: translate3d(0, 100%, 0);
     transition: all 0.9s ease-out; }
     .menu-branding.show {
@@ -55,16 +55,16 @@
     .menu-branding .logo {
       width: 210px;
       height: 210px;
-      background: url("../img/logo.png");
+      background: url("../img/logo.jpg");
       border-radius: 50%;
-      border: solid 7px #85cff1; }
+      border: solid 7px #87d4f8; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.9s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #85cff1; }
+      color: #87d4f8; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,14 +76,14 @@
     text-decoration: none;
     transition: all 0.9s ease-out; }
     .menu .nav-link:hover {
-      color: #85cff1; }
+      color: #87d4f8; }
 
 /*define for everything that if we will have design/padding inside a box it won't affect the height/width of it*/
 * {
   box-sizing: border-box; }
 
 body {
-  background: #8b8a8a;
+  background: #444;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -101,7 +101,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: rgba(139, 138, 138, 0); }
+    background: rgba(68, 68, 68, 0); }
 
 h1, h2, h3 {
   margin: 0;
@@ -111,7 +111,7 @@ h1, h2, h3 {
   h1.small-heading, h2.small-heading, h3.small-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(144, 143, 143, 0.5); }
+    background: rgba(73, 73, 73, 0.5); }
 
 a {
   color: #fff;
@@ -123,7 +123,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #85cff1; }
+  color: #87d4f8; }
 
 main {
   padding: 4rem;
@@ -133,7 +133,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #85cff1;
+        color: #87d4f8;
         transition: all 0.9s ease-out; }
   main#home {
     overflow: hidden; }

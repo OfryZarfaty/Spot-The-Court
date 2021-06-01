@@ -43,7 +43,7 @@
     position: fixed;
     top:0;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.9;
     visibility: hidden;
 
     &.show{
@@ -66,7 +66,7 @@
     &-nav{
         margin: 0;
         padding: 0;
-        background: darken($primary-color,7);
+        background: darken($primary-color,4);
         list-style: none; //remove list dots
         transform: translate3d(0, -100%, 0);
         @include easeOut;
@@ -88,7 +88,7 @@
         .logo{
             width: 210px;
             height: 210px;
-            background: url('../img/logo.png');
+            background: url('../img/logo.jpg');
             border-radius: 50%;
             border: solid 7px $secondary-color;
         }
